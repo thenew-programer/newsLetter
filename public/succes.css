@@ -1,0 +1,27 @@
+html,
+body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+main {
+	box-sizing: border-box;
+	border-radius: 10px;
+	width: 80%;
+	height: 300px;
+	background: #eee;
+	margin: auto;
+	margin-top: 3rem;
+	padding: 2rem;
+}
+
+footer {
+	text-align: center;
+	margin-top: 2rem;
+}
+footer p {
+	color: #333;
+	font-size: .9rem;
+}
