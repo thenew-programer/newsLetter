@@ -10,9 +10,8 @@ app.use(parser.urlencoded({ extended: true }));
 
 
 // MailChimp cordinates
-let status = 0;
 const list_id = '76b3dd9a29';
-const api_key = '3682d566592fe5898279c01282fe8073-us17';
+const api_key = '7e8fbca29c96bd6cbe9b07a589bba83e-us17';
 const url = 'https://us17.api.mailchimp.com/3.0/lists/' + list_id;
 const options = {
 	method: 'POST',
